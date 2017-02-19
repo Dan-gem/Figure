@@ -2,24 +2,26 @@ public class Figure {
     public static void main(String[] args) {
 
 
-//        int c=10;
-//        for (int a=0; a<c; a++) { //прямоугольник
+        int c=10;
+        for (int a=0; a<c; a++) { //прямоугольник
+
+            for (int b=0; b<c; b++) {
+                System.out.print("*");
+            }
+            System.out.print("\n");
+        }
+
+
+
+//            int c=10;
+//        for (int a=0; a<c; a++) { // прямоугольный треугольник
 //
-//            for (int b=0; b<c; b++) {
+//            for (int b=0; b<a; b++) {
 //                System.out.print("*");
 //            }
 //            System.out.print("\n");
 //        }
 
-
-            int c=10;
-        for (int a=0; a<c; a++) { // прямоугольный треугольник
-
-            for (int b=0; b<a; b++) {
-                System.out.print("*");
-            }
-            System.out.print("\n");
-        }
 
 
 //        int i1 = 0, i2 = 0; // Прямоугольный треугольник - пустотелый
@@ -36,7 +38,8 @@ public class Figure {
 //            System.out.print("*");
 //        }
 //        System.out.print("");
-//    }
+
+
 
 
 //        int c = 11; // Ромб
@@ -58,10 +61,12 @@ public class Figure {
 //        }
 
 
-//        int count = 10; // квадрат с диагоналями внутри
-//        for (int i = 0; i < count; i++) {
-//            for (int k = 0; k < count; k++) {
-//                if (i == count - 1 || i == k || k == count - 1 || k == 0 || i == 0 || k == count - i - 1) {
+
+
+//        int c = 10; // квадрат с диагоналями внутри
+//        for (int i = 0; i < c; i++) {
+//            for (int k = 0; k < c; k++) {
+//                if (i == c - 1 || i == k || k == c - 1 || k == 0 || i == 0 || k == c - i - 1) {
 //                    System.out.print("*");
 //                } else {
 //                    System.out.print(" ");
